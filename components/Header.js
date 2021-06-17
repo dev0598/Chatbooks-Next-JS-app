@@ -56,7 +56,7 @@ function Header() {
                 {/* Profile Pic */}
                 <LogoutIcon
                     onClick={signOut}
-                    className="p-2 h-10 w-10 bg-gray-400 rounded-full text-gray-600 cursor-pointer hover:bg-gray-300"
+                    className="p-2 h-10 w-10 bg-gray-100 rounded-full text-gray-600 cursor-pointer hover:bg-gray-300"
                     // src="/images/logout_black_24dp.svg"
                     // width="45"
                     // height="45"

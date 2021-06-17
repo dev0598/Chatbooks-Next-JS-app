@@ -11,12 +11,14 @@ function StoryCard({ name, src, profile }) {
                 layout="fixed"
                 objectFit="cover"
             />
+             <div className="hidden relative h-10 transititon duration-200 transform ease-in hover:active hover:animate-pulse lg:h-4 z-10 ">{name}</div>
             <Image 
                 className="object-cover filter brightness-75
                 rounded-full lg:rounded-3xl"
                 src={src}
                 layout="fill"
             />
+            
         </div>
     );
 }
